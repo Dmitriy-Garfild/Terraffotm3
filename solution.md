@@ -59,17 +59,33 @@ variable "each_vm" {
 ### Решение 2
 
 1 выполнил
-файл count-vm.tf-V1
+
+
+
+файл [count-vm.tf-V1](https://github.com/Dmitriy-Garfild/Terraffotm3/blob/main/src/count-vm.tf-V1)
+
+
 
 ![Рис.2-1](img/2-1.PNG)
 
+
+
 ![Рис.2-1sec](img/2-1sec.PNG)
 
+
+
 2 
-создан файл for_each-vm.tf
-4 добавлена строка  " depends_on = [ yandex_compute_instance.db ]" в файл  count-vm.tf
-5 создан файл locals.tf
+создан файл [for_each-vm.tf](https://github.com/Dmitriy-Garfild/Terraffotm3/blob/main/src/for_each-vm.tf)
+
+
+4 добавлена строка  " depends_on = [ yandex_compute_instance.db ]" в файл  [count-vm.tf](https://github.com/Dmitriy-Garfild/Terraffotm3/blob/main/src/count-vm.tf)
+
+
+5 создан файл [locals.tf](https://github.com/Dmitriy-Garfild/Terraffotm3/blob/main/src/locals.tf)
+
+
 6
+
 
 ![Рис.2-6](img/2-6.PNG)
 
@@ -84,7 +100,7 @@ variable "each_vm" {
 ### Решение 3
 
 1
-файл disk_vm.tf
+файл [disk_vm.tf](https://github.com/Dmitriy-Garfild/Terraffotm3/blob/main/src/disk_vm.tf)
 
 2
 
