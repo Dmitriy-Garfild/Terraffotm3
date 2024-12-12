@@ -125,6 +125,6 @@ storage ansible_host=<внешний ip-адрес> fqdn=<полное доме�
  отредактировал конфигурацию;  
  выполнил команду **terraform init -upgrade**;  
  Запустил код  
-![Рис.4-1](img/.4-1.PNG)  
+![Рис.4-1](https://github.com/Dmitriy-Garfild/Terraffotm3/blob/main/img/4-1.PNG)
 
 
