@@ -1,0 +1,6 @@
+[web]
+bav-web-1   ansible_host=158.160.54.80bav-web-2   ansible_host=89.169.157.68
+[db]
+main   ansible_host=158.160.53.21replica   ansible_host=158.160.54.198
+[storage]
+storage   ansible_host=84.201.174.173
